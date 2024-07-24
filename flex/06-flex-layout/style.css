@@ -5,10 +5,39 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  margin: auto;
+}
+
+.content * {
+  text-align: center;
+  padding: 10px;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: grey;
+  padding: 0 3rem;
+}
+
+ul {
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
 }
 
 img {
   width: 600px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 button {
